@@ -41,7 +41,6 @@ Parameters:
   02HOST:
     Description: The URL of the server where the database is hosted.
     Type: String
-    AllowedPattern: "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)"
   03PORT:
     Description: The port to access the above server with.
     Type: String
