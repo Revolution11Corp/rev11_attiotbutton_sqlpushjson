@@ -64,7 +64,7 @@ Parameters:
     Type: String
     NoEcho: true
 Resources:
-  rev11attiotbuttonfilemakerapi:
+  rev11sqlpushjson:
     Type: 'AWS::Serverless::Function'
     Properties:
       Description: 'A Lambda Function to write the JSON payload from an IOT button message to a external SQL database column.'
