@@ -63,14 +63,14 @@ Parameters:
     Type: String
     NoEcho: true
 Resources:
-  rev11sqlpushjson:
+  rev11attiotsql:
     Type: 'AWS::Serverless::Function'
     Properties:
       Description: 'A Lambda Function to write the JSON payload from an IOT button message to a external SQL database column.'
       Handler: index.handler
       MemorySize: 128
       Runtime: nodejs8.10
-      Timeout: 3
+      Timeout: 10
       CodeUri: 's3://revolution11pushsql/revolution11pushsql.zip'
       Environment:
         Variables:
